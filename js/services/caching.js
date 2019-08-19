@@ -5,7 +5,8 @@ module.exports = function () {
 
     function getMenuFooter(){
         try{
-            var mF = JSON.parse(localStorage.getItem('menuFooter'));
+            var t = JSON.parse(localStorage.getItem('menuFooter'));
+            var mF = t.data;
         }catch(error){
             var mF = null;
         }

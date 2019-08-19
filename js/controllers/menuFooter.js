@@ -1,10 +1,10 @@
-module.exports = function ($rootScope, $http, $scope, $location, Caching) {
+module.exports = function ($rootScope,$timeout, $http, $scope, $location, Caching, MenuFooter) {
     // hardcoded initial menu 
     
     $scope.menuisdown = true;
 
     $scope.clickMenuToggle = function(){
-        $scope.menuisdown = !$scope.menuisdown;
+        MenuFooter.setState($scope.menuisdown);
     }
     
     
@@ -17,7 +17,15 @@ module.exports = function ($rootScope, $http, $scope, $location, Caching) {
 
     if($scope.strucMenu == null){
         api_getMenu()
+    }else{
+        $timeout(function(){
+            api_getMenu();
+        }, 2000)
     }
+
+    $scope.$watch(function () { return MenuFooter.getState();         }, function (value) {
+        $scope.menuisdown = !value;
+    });
 
     function api_getMenu(){
         $http({

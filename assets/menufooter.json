@@ -1,22 +1,29 @@
-[
-    {
-        "title" : "Accueil",
-        "src" : "img/svg/accueil.svg",
-        "href" : "/"
-    },
-    {
-        "title" : "Mes projets",
-        "src" : "img/svg/projet.svg",
-        "href" : "/projets"
-    },
-    {
-        "title" : "Contact",
-        "src" : "img/svg/contact.svg",
-        "href" : "/contact"
-    },
-    {
-        "title" : "Cartographie",
-        "src" : "img/svg/map",
-        "href" : "/map"
-    }
-]
+{
+    "version" : 0, 
+    "data" : [
+        {
+            "title" : "Accueil",
+            "src" : "img/svg/accueil.svg",
+            "description" : "Retourner à l'accueil",
+            "href" : "/"
+        },
+        {
+            "title" : "Mes projets",
+            "src" : "img/svg/projet.svg",
+            "description" : "Mes différents projets réalisés",
+            "href" : "/projets"
+        },
+        {
+            "title" : "Contact",
+            "src" : "img/svg/contact.svg",
+            "description" : "Contactez-moi",
+            "href" : "/contact"
+        },
+        {
+            "title" : "Cartographie",
+            "src" : "img/svg/map.svg",
+            "description" : "Une carte plutot sympa",
+            "href" : "/map"
+        }
+    ]
+}
