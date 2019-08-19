@@ -1,8 +1,11 @@
 module.exports =function () {
 
     var number = 0;
+
     
-    var title = "Portfolio de Jimmy Billan";
+    var defaultTitle = "Portfolio de Jimmy Billan";
+    
+    var title = defaultTitle;
     var titleDefault = true;
     
     function getTitleDefault(){
@@ -15,6 +18,7 @@ module.exports =function () {
      */
     function setDefautTitre(b){
         titleDefault = b;
+        title = defaultTitle;
     }
     
     var back = false;

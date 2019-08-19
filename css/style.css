@@ -1,0 +1,100 @@
+/*Global  */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,/*ol,ul,li,*/
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:top}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+html,
+body,
+#map {
+  width: 100vw;
+}
+
+html{width:100%; font-size: 13px;}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,/*ol,ul,li,*/
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  font-family: "Trebuchet MS";
+  user-select: none;
+}
+
+/* NAVBAR */
+
+#header {
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    box-shadow: 5px 3px 13px 0px rgba(0, 0, 0, 0.86);
+}
+
+.navbar-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: #54545A;
+    background-color: #4caf50;
+    font-size: 19px;
+    box-shadow: 0 0px 3px 1px rgba(0,0,0,0.2);
+    background-image: linear-gradient(#419443,#4caf50);
+}
+
+.tampon{
+    height: 58px;
+}
+
+.navbar-header > div {
+    height: 58px;
+}
+.navbar-header > .ligne1 > div {
+    height: 58px;
+    /* width: 58px; */
+    line-height: 58px;
+    display: inline-block;
+    min-width: 20px;
+    overflow: hidden;
+    /* padding-left: 16px; */
+    font-size: 20px;
+    color: white;
+    float: left;
+    overflow: hidden;
+}
+
+.navbar-header > .ligne1 .button-1 {
+    width: 14%;
+    /* margin-left: 16px; */
+     text-align: center;
+}
+
+.ligne1 .button-1 img {
+    /* width: 23px; */
+    height: 23px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-header > .ligne1 .Text-1 {
+    width: 86%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.navbar-header > .ligne1 .Text-1.noButton{
+    margin-left:16px;
+}
+
+/*
+            Block .navbar-header
+            Un seul titre
+        ###
+    ###
+###
+{{navbar-header}}*/

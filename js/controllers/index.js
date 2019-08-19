@@ -3,6 +3,7 @@
 var app = require('angular').module('jimPortfolio');
 
 app.controller('accueil', require('./accueil'));
+app.controller('projets', require('./projets'));
 app.controller('projet', require('./projet'));
 app.controller('contact', require('./contact'));
 app.controller('map', require('./map'));
