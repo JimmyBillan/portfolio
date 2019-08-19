@@ -52,7 +52,7 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
     background-color: #4caf50;
     font-size: 19px;
     box-shadow: 0 0px 3px 1px rgba(0,0,0,0.2);
-    background-image: linear-gradient(#419443,#4caf50);
+    background-image: linear-gradient(135deg,#00b7ff,#ffffc2);
 }
 
 .tampon{
@@ -121,13 +121,14 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
   menufooter {
     display: block;
     position: fixed;
-    background-color: white;
+    background-color: #ffffff;
     height: 100vh;
     width: 100%;
     z-index: 10000;
     top: 0;
-    transform: translateY(60px);
+    transform: translateY(59px);
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.38);
+    background-image: linear-gradient(#1c91bf,#ffffc2);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
@@ -152,9 +153,8 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
     transition: top 0.4s 0.2s ease-in-out, opacity 0.2s 0.2s linear;
   }
   menufooter .zoneButton div {
-    background-color: #37a63e;
     border-radius: 35px;
-    border: 4px solid white;
+    border: 4px solid #ffffff;
     padding: 5px;
     /* top: 0px; */
     transform: translateY(0px);
@@ -164,12 +164,14 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
     margin-left: auto;
     margin-right: auto;
     width: 42px;
+    background-image: linear-gradient(-45deg,#00b7ff,#ffffc2);
     height: 42px;
     transition: transform 0.4s 0.3s ease-in-out;
   }
   
   menufooter .zoneButton div.down {
     transform: translateY(-29px);
+    border-color: #1e92bf;
   }
   
   menufooter .zoneButton img.hamburger.down {
@@ -202,7 +204,9 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
     display: -moz-box;
     display: -webkit-flex;
     display: -ms-flexbox;
+    font-weight: bold;
     display: flex;
+    background-image: linear-gradient(153deg,#00b7ff,#ffffc2);
   }
   menufooter .listItemMenu .tamponbottommenu {
     height: 10px;
@@ -236,9 +240,10 @@ fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,asid
   }
   
   menufooter .listItemMenu .item .text .title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
     text-transform: uppercase;
+    font-weight: bold;
   }
   menufooter .listItemMenu .item .text .description {
     text-align: justify;
