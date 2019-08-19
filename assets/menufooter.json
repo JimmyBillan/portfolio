@@ -1,0 +1,22 @@
+[
+    {
+        "title" : "Accueil",
+        "src" : "img/svg/accueil.svg",
+        "href" : "/"
+    },
+    {
+        "title" : "Mes projets",
+        "src" : "img/svg/projet.svg",
+        "href" : "/projets"
+    },
+    {
+        "title" : "Contact",
+        "src" : "img/svg/contact.svg",
+        "href" : "/contact"
+    },
+    {
+        "title" : "Cartographie",
+        "src" : "img/svg/map",
+        "href" : "/map"
+    }
+]

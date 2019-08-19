@@ -1,0 +1,34 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Webapp Portfolio Jimmy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify --entry js/app.js --outfile dist/app.js --debug",
+    "watch": "watchify --entry js/app.js --outfile dist/app.js --debug",
+    "uglify": "uglifyjs dist/app.js --output dist/app.min.js -c drop_console=true",
+    "build": "npm run browserify && npm run uglyfy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyBillan/portofolio"
+  },
+  "author": "Jimmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyBillan/portofolio/issues"
+  },
+  "homepage": "https://github.com/JimmyBillan/portofolio#readme",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-route": "^1.7.8",
+    "is_js": "^0.9.0",
+    "pulltorefreshjs": "^0.1.17"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "uglifyjs": "^2.4.11",
+    "watchify": "^3.11.1"
+  }
+}
