@@ -8,7 +8,7 @@
     "browserify": "browserify --entry js/app.js --outfile dist/app.js --debug",
     "watch": "watchify --entry js/app.js --outfile dist/app.js --debug",
     "uglify": "uglifyjs dist/app.js --output dist/app.min.js -c drop_console=true",
-    "build": "npm run browserify && npm run uglyfy"
+    "build": "npm run browserify && npm run uglify"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
   },
   "devDependencies": {
     "browserify": "^16.5.0",
-    "uglifyjs": "^2.4.11",
+    "http-server": "^0.11.1",
+    "uglify-js": "^3.6.0",
     "watchify": "^3.11.1"
   }
 }

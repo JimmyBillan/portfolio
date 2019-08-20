@@ -55,8 +55,11 @@
       <div id="zoneButton" class="zoneButton" ng-click="clickMenuToggle()">
             <div ng-class="{'down': menuisdown}"><img
               ng-class="{'down': menuisdown}"
-              style="width: 41px;"
-              src="img/svg/menuclose.png"
+              style="    width: 54px;
+              padding-left: 0px;
+              padding-top: 4px;
+              margin-right: -6px;"
+              src="img/svg/menuclose.svg"
               class="close"
             />
             <img
@@ -69,7 +72,8 @@
       </div>
       <div class="listItemMenu">
 
-          <a ng-href="men.href"  ng-repeat="men in strucMenu" >
+          <a ng-href="#!{{men.href}}"  ng-repeat="men in strucMenu" >
+            
             <div class="item bg_green">
                 <div class="icon" style="background-image:url({{men.src}})">
                 </div>
@@ -85,7 +89,7 @@
     </menufooter>
 
 
-    <script type="text/javascript" src="js/app.min.js"></script>
+    <script type="text/javascript" src="dist/app.min.js"></script>
 
   </body>
 </html>
