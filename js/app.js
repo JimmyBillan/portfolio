@@ -154,3 +154,5 @@ function AuthorizationErrorRedirectAuthPage(url) {
 
 AuthorizationErrorRedirectAuthPage.prototype = Object.create(Error.prototype);
 AuthorizationErrorRedirectAuthPage.prototype.constructor = AuthorizationErrorRedirectAuthPage;
+
+window.mapboxglmap;
