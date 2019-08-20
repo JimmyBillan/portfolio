@@ -51,10 +51,12 @@
 
     <div class="zone_fiche">
         <div class="item" ng-repeat="proj in shortListProjet">
-            <div class="label">{{proj.Titre}} </div>
-            <div class="Title">{{proj.desc}}</div>
+               
+            <div class="label"><a ng-href="#!/projet/{{proj.id}}"> {{proj.Titre}}</a> </div>
+            <div class="Title"><a ng-href="#!/projet/{{proj.id}}">{{proj.desc}}</a></div>
             <div class="motscle">{{proj.motscle}}</div>
             <a ng-href="#!/projet/{{proj.id}}"> En savoir plus</a>       
+              
         </div>
     </div>
 
