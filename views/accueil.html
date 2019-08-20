@@ -1,1 +1,64 @@
-<h1>Accueil</h1>
+<div class="simplepage">
+
+    <h1>Fiche d'identité</h1>
+
+    <div class="zone_fiche">
+        <div class="item">
+            <div class="label">Prénom</div>
+            <div class="Title">Jimmy</div>       
+        </div>
+        <div class="item">
+            <div class="label">Nom</div>
+            <div class="Title">Billan</div>       
+        </div>
+        <div class="item">
+            <div class="label">Age</div>
+            <div class="Title">27 ans</div>       
+        </div>
+        <div class="item">
+            <div class="label">Profession</div>
+            <div class="Title">Développeur</div>       
+        </div>
+        <div class="item">
+            <div class="label">Études</div>
+            <div class="Title">Master II - Sciences informatiques (2016)</div>       
+        </div>
+    </div>    
+    
+
+    <h1>Expériences</h1>
+
+    <div class="zone_fiche">
+        <div class="item">
+            <div class="label">Salarié : Développeur </div>
+            <div class="Title">Arobase.fr (2016 / 2019)</div>       
+        </div>
+        <div class="item">
+            <div class="label">Stagiaire Développeur</div>
+            <div class="Title">Arobase.fr (2016 - 6 mois)</div>       
+        </div>
+        <div class="item">
+            <div class="label">Stagiaire SysAdmin BTS - 2 (2013)</div>
+            <div class="Title">ca-ajaccien.corsica</div>       
+        </div>
+        <div class="item">
+            <div class="label">Stagiaire SysAdmin BTS - 1 (2012)</div>
+            <div class="Title">https://llb.ac-corse.fr/</div>       
+        </div>
+    </div>
+
+    <h1>Projets</h1>
+
+    <div class="zone_fiche">
+        <div class="item" ng-repeat="proj in shortListProjet">
+            <div class="label">{{proj.Titre}} </div>
+            <div class="Title">{{proj.desc}}</div>
+            <div class="motscle">{{proj.motscle}}</div>
+            <a ng-href="#!/projet/{{proj.id}}"> En savoir plus</a>       
+        </div>
+    </div>
+
+    <div class="zone_button">
+            <a ng-href="#!/projets"><button>Voir + de projets</button></a>
+    </div>
+</div>
