@@ -1,1 +1,12 @@
-<h1>Projets</h1>
+<div class="simplepage">
+    <h2>Liste non exhaustive de l'ensemble des projets que j'ai réalisé seul.</h2>
+    <p>Les projets ne portant pas la dénomination "Développeur fullstack" symbolisent qu'un autre développeur a réalisé le backend.</p>
+    <div class="zone_fiche list">
+        <div class="item" ng-repeat="proj in longListProjet">
+            <div class="label"><a ng-href="#!/projet/{{proj.id}}"> {{proj.Titre}}</a> </div>
+            <div class="Title"><a ng-href="#!/projet/{{proj.id}}">{{proj.desc}}</a></div>
+            <div class="motscle">{{proj.motscle}}</div>
+            <a ng-href="#!/projet/{{proj.id}}"> En savoir plus</a>       
+        </div>
+    </div>
+</div>

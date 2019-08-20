@@ -70,8 +70,7 @@ mApp.filter('trusted', ['$sce', function($sce) {
 
 mApp.run(function ($rootScope, $location ) {
     $rootScope.env = window.env;
-    $rootScope.urlOrigin = "https://portfolio.jimmybillan.fr";
-    $rootScope.urlOrigin = "http://127.0.0.1:8080";
+    $rootScope.urlOrigin = "";
 
     /**
      * EVENT BACK 

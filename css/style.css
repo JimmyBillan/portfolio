@@ -22,6 +22,17 @@ h1 {
   padding-right: 0;
   color: #238fb9;
 }
+h2 {
+  font-size: 1.4rem;
+  padding: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  color: #238fb9;
+}
+p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,/*ol,ul,li,*/
 fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
@@ -304,11 +315,13 @@ Accueil
     border-bottom: 1px solid #8080802b;
 }
 
-.zone_fiche .item .label {
+.zone_fiche .item .label, .zone_fiche .item .label a {
     color: #0bbafc7a;
+    padding: 0;
 }
 
 .zone_fiche .item .Title {font-weight:bold;}
+.zone_fiche .item .Title a{padding-top:5px;}
 
 .zone_fiche .item .motscle {
   font-size: 1.1rem;
@@ -320,6 +333,17 @@ Accueil
   display: block;
   padding-top: 15px;
   color: #25799a;
+}
+
+.zone_fiche.list {
+  background-image: none;
+  box-shadow: 0px 0px;
+}
+
+.zone_fiche.list .item {
+  background-image: linear-gradient(-21deg,#00b7ff4d,#ffffc2);
+  box-shadow: 0 0px 3px 1px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
 }
 
 .zone_button {

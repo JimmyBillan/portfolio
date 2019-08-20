@@ -2,19 +2,62 @@
     {
         "id" : 0,
         "Titre" : "Ascor",
-        "desc" : "Coordinateur - developpeur fullstack. App mobile dédiée à la d'études épidemologiques et à la sensibilisation du publique",
-        "motscle" : "APP, BACKEND, END-TO-END encryption, donnée de santé, Angular, Cordova, PHP"
+        "desc" : "Coordinateur - Développeur fullstack. App mobile dédiée à la d'études épidemologiques et à la sensibilisation du publique",
+        "motscle" : "APP, BACKEND, END-TO-END encryption, Donnée de santé, Recherche scientifique, Angular, Cordova, PHP"
     },
     {
         "id" : 1,
         "Titre" : "Pertusatu",
-        "desc" : "Developpeur fullstack Webapp + software. Logiciel de rédaction et d'évaluation des planifications, appliqué à la gestion des aires protégées ",
-        "motscle" : "WEBAPP, ELECTRON, API, Angular "
+        "desc" : "Développeur fullstack Webapp + software. Logiciel de rédaction et d'évaluation des planifications, appliqué à la gestion des aires protégées ",
+        "motscle" : "WEBAPP, ELECTRON, API, Angular, Recherche scientifique, Écologie "
     },
     {
         "id" : 2,
-        "Titre" : "ComCOm Centre Corse",
-        "desc" : "Developpeur fullstack app + integrateur. Appli de sensibilisation au tri séléctif + integration du site ",
-        "motscle" : "APP, Carte online, Carte offline, Geolocalisation, itinéraires, caméra, API"
+        "Titre" : "ComCom Centre Corse",
+        "desc" : "Développeur fullstack app + integrateur. Appli de sensibilisation au tri séléctif + integration du site ",
+        "motscle" : "APP, Carte online, Carte offline, Geolocalisation, itinéraires, caméra, API, Notification PUSH, Écologie"
+    },
+    {
+        "id" : 3,
+        "Titre" : "App Bregante compteur",
+        "desc" : "Développeur mobile app. Appli de releve de compteur de gaz chez des particuliers afin de faciliter la création de facture",
+        "motscle" : "APP, Sync base client, QR CODE reader, Angular, Cordova"
+    },
+    {
+        "id" : 4,
+        "Titre" : "Goéland d'Audouin",
+        "desc" : "Développeur mobile app + web. Appli de sensibilisation à la présense d'une espèce protégée de goéland, sous forme de carte intéractive 3D",
+        "motscle" : "APP, MAPBOX GL, Jeux éducatif, Cordova, Écologie"
+    },
+    {
+        "id" : 5,
+        "Titre" : "A Morra",
+        "desc" : "Développeur fullstack. Version mobile multijoueur du jeu Corse 'A morra' proposant de l'achat in APP (BETA)",
+        "motscle" : "Jeu mobile, In App Purchase, Phaser.io, Cordova, Nodejs, Websocket"
+    },
+    {
+        "id" : 6,
+        "Titre" : "Application VR",
+        "desc" : "Développeur mobile app. Appli de réalité virtuel à déstination de l'office de tourisme d'île-Rousse.",
+        "motscle" : "VR, UNITY, Daydream Google VR, C#, Tourisme"
+    },
+    {
+        "id" : 7,
+        "Titre" : "Applications Sentiers du patrimoine",
+        "desc" : "Développeur mobile app. Applis permettant d'explorer des sentiers du patrimoine Corse à distance ou sur place en audioguide",
+        "motscle" : "APP, Leaflet, Carte offline, Audioguide, QR CODE reader, Accessibilité"
+    },
+    {
+        "id" : 8,
+        "Titre" : "Application corsica cruise club",
+        "desc" : "Développeur mobile app. Appli étant un support de communication pour la promotion des 4 ports de tourisme en Haute-Corse",
+        "motscle" : "APP, Visite Virtuelle 360, Outil de calcul de tarif portuaire"
+    },    
+    {
+        "id" : 9,
+        "Titre" : "SIG WEB",
+        "desc" : "Développeur web. Création d'un Système d'information géographique web en ligne à déstination de plusieurs projets de l'office de l'environnement de la Corse.",
+        "motscle" : "WEBAPP, Cartographie, leaflet"
     }
+
 ]

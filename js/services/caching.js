@@ -15,19 +15,33 @@ module.exports = function () {
 
     function setMenuFooter(content){
         localStorage.setItem('menuFooter', JSON.stringify(content));
-    }  
+    }      
 
-    function getPageAccueil(){
+
+    function getshortListProjet(){
         try{
-            var mF = localStorage.getItem('pageAccueil');
+            var mF = JSON.parse(localStorage.getItem('shortListProjet'));
         }catch(error){
             var mF = null;
         }
         return mF;
     }
 
-    function setPageAccueil(content){
-        localStorage.setItem('pageAccueil', content);
+    function setshortListProjet(content){
+        localStorage.setItem('shortListProjet',  JSON.stringify(content));
+    }
+
+    function getlongListProjet(){
+        try{
+            var mF = JSON.parse(localStorage.getItem('longListProjet'));
+        }catch(error){
+            var mF = null;
+        }
+        return mF;
+    }
+
+    function setlongListProjet(content){
+        localStorage.setItem('longListProjet',  JSON.stringify(content));
     }
 
 
@@ -36,8 +50,10 @@ module.exports = function () {
       
         getMenuFooter : getMenuFooter,
         setMenuFooter : setMenuFooter,
-        getPageAccueil : getPageAccueil,
-        setPageAccueil : setPageAccueil
+        getshortListProjet : getshortListProjet,
+        setshortListProjet : setshortListProjet,
+        getlongListProjet : getlongListProjet,
+        setlongListProjet : setlongListProjet
 
     };
 }
