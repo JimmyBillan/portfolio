@@ -3,7 +3,12 @@
         <h3>Mots clés :</h3>
         <p>{{page.motscle}}</p>
     </div>
-<div ng-bind-html="page.body_trusted"></div>
+<div ng-if="page.body_trusted" ng-bind-html="page.body_trusted"></div>
+</div>
+
+<div ng-if="!page.body_trusted" >
+    <h1>{{page.Titre}}</h1>
+    <p>{{page.desc}}</p></div>
 </div>
 
 <div class="tampon_footer"></div>

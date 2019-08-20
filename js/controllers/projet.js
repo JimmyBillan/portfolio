@@ -15,7 +15,9 @@ module.exports = function ($rootScope, $scope, $http, $sce, $routeParams, $timeo
         api_getProjetById();
     }else{
         Navbar.setTitle($scope.page.Titre);
-        $scope.page.body_trusted = $sce.trustAsHtml($scope.page.html);
+        if(typeof $scope.page.html !="undefined"){
+            $scope.page.body_trusted = $sce.trustAsHtml($scope.page.html);
+        }
         $timeout(function(){
             api_getProjetById();
         }, 2000)
@@ -30,7 +32,9 @@ module.exports = function ($rootScope, $scope, $http, $sce, $routeParams, $timeo
         }).then(function(res){
             Caching.setProjetById(res.data.id, res.data)
             $scope.page = Caching.getProjetById($routeParams.idProjet);
-            $scope.page.body_trusted = $sce.trustAsHtml($scope.page.html);
+            if(typeof $scope.page.html !="undefined"){
+                $scope.page.body_trusted = $sce.trustAsHtml($scope.page.html);
+            }
             Navbar.setTitle($scope.page.Titre);
 
         }, function (responseError) {

@@ -1,0 +1,6 @@
+{
+    "id" : 5,
+    "Titre" : "A Morra",
+    "desc" : "Développeur fullstack. Version mobile multijoueur du jeu Corse 'A morra' proposant de l'achat in APP (BETA)",
+    "motscle" : "Jeu mobile, In App Purchase, Phaser.io, Cordova, Nodejs, Websocket"
+}

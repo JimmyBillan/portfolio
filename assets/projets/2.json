@@ -1,0 +1,7 @@
+{
+    "id" : 2,
+    "Titre" : "ComCom Centre Corse",
+    "desc" : "Développeur fullstack app + integrateur. Appli de sensibilisation au tri séléctif + integration du site ",
+    "motscle" : "APP, Carte online, Carte offline, Geolocalisation, itinéraires, caméra, API, Notification PUSH, Écologie",
+    "html" : "<h1>Application Tri Centre Corse<\/h1><p>C&#39;est une application &agrave; destination des habitants de la Communaut&eacute; de Commune du Centre Corse.&nbsp;<\/p><p>Elle leur permet de trouver les points d&#39;apports volontaires (poubelle de tri), ainsi que de visualiser les zones de collecte des biod&eacute;chets en porte &agrave; porte.&nbsp;<\/p><p>Les utilisateurs sont alert&eacute;s par une notification d&#39;une nouvelle actualit&eacute;. Ils ont aussi la possibilit&eacute; de recevoir des alertes les veilles de collecte dans leur quartier.<\/p><p><img src=\"assets\/projets\/img\/app4c0.jpg\" class=\"fr-fil fr-dib\"><img src=\"assets\/projets\/img\/app4c1.jpg\" class=\"fr-fil fr-dib\"><\/p><h2>Le site Web<\/h2><p>Int&eacute;gration dans le cms proprietaire de la boite du site web responsive de la communaut&eacute; de commune du centre corse.<\/p><p>Cr&eacute;ation du backend d&eacute;di&eacute; &agrave; la gestion de l&#39;appli (push, cartographie, actus etc ..)<\/p><p><img src=\"assets\/projets\/img\/app4c2.jpg\"><\/p><p><br><\/p>"
+}

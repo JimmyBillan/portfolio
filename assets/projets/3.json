@@ -1,0 +1,6 @@
+{
+    "id" : 3,
+    "Titre" : "App Bregante compteur",
+    "desc" : "Développeur mobile app. Appli de releve de compteur de gaz chez des particuliers afin de faciliter la création de facture",
+    "motscle" : "APP, Sync base client, QR CODE reader, Angular, Cordova"
+}
