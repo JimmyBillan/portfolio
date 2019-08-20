@@ -29,9 +29,26 @@ h2 {
   padding-right: 0;
   color: #238fb9;
 }
+
+h3 {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  padding-left: 0;
+  padding-right: 0;
+  color: black;
+  font-weight:bold;
+}
 p {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+strong{
+  font-weight: bold;
+}
+
+li p {
+  padding: 0.5rem;
 }
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,/*ol,ul,li,*/
@@ -376,6 +393,19 @@ button a {
 button:hover {
   background-image: linear-gradient(135deg,#7aceef,#41aed8);
 }
+
+.simplepage.projet img {
+  max-width: 100%;
+}
+
+
+.simplepage.projet .motsClé {
+  background-color: #f1f1f1;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 
 /*Carto*/
 

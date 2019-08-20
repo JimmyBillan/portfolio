@@ -44,6 +44,19 @@ module.exports = function () {
         localStorage.setItem('longListProjet',  JSON.stringify(content));
     }
 
+    function getProjetById(id){
+        try{
+            var mF = JSON.parse(localStorage.getItem('projet_'+id));
+        }catch(error){
+            var mF = null;
+        }
+        return mF;
+    }
+
+    function setProjetById(id, content){
+        localStorage.setItem('projet_'+id,  JSON.stringify(content));
+    }
+
 
 
     return {
@@ -53,7 +66,9 @@ module.exports = function () {
         getshortListProjet : getshortListProjet,
         setshortListProjet : setshortListProjet,
         getlongListProjet : getlongListProjet,
-        setlongListProjet : setlongListProjet
+        setlongListProjet : setlongListProjet,        
+        getProjetById : getProjetById,
+        setProjetById : setProjetById
 
     };
 }
